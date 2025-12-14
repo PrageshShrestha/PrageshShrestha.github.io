@@ -15,7 +15,8 @@
 <div class="big-container">
   <div class="infinity-container">
         <svg viewBox="0 0 100 50">
-                        <path class="infinity-path" d="
+            <!-- Infinity Symbol Path -->
+            <path class="infinity-path" d="
                 M 20,25
                 C 20,5 50,5 50,25
                 S 80,45 80,25
@@ -26,33 +27,41 @@
     </div>
  <div class="flute-container">
         <svg width="100%" height="100%" viewBox="0 0 300 75">
-                        <rect x="20" y="30" width="260" height="15" rx="7" ry="7" fill="#8B5A2B" />                         <circle cx="60" cy="37.5" r="3" fill="black" />
+            <!-- Flute Body -->
+            <rect x="20" y="30" width="260" height="15" rx="7" ry="7" fill="#8B5A2B" /> <!-- Rounded edges for realism -->
+            <!-- Flute Holes -->
+            <circle cx="60" cy="37.5" r="3" fill="black" />
             <circle cx="90" cy="37.5" r="3" fill="black" />
             <circle cx="120" cy="37.5" r="3" fill="black" />
             <circle cx="150" cy="37.5" r="3" fill="black" />
             <circle cx="180" cy="37.5" r="3" fill="black" />
             <circle cx="210" cy="37.5" r="3" fill="black" />
             
-                        <path class="leaf" d="M20 30 C10 20, 10 40, 20 45 Q25 37.5, 20 30" />
+            <!-- Animated Leaves -->
+            <path class="leaf" d="M20 30 C10 20, 10 40, 20 45 Q25 37.5, 20 30" />
             <path class="leaf" d="M280 30 C290 20, 290 40, 280 45 Q275 37.5, 280 30" />
 
-                        <text x="140" y="20" class="note" font-size="18">&#9835;</text>
+            <!-- Animated Musical Notes -->
+            <text x="140" y="20" class="note" font-size="18">&#9835;</text>
             <text x="170" y="10" class="note" font-size="18">&#9833;</text>
             <text x="200" y="20" class="note" font-size="18">&#9834;</text>
         </svg>
     </div>
-        <header>
+    <!-- Header Section -->
+    <header>
         <div class="logo"> <span>M</span><span>o</span><span>h</span><span>a</span><span>n</span></div>
      
         <div class="profile-name"><span class="peer_python">Python</span><span class="eer">eer</span></div>
     </header>
 
-        <main>
+    <!-- Main Section -->
+    <main>
 	 <section class="profile">
             <div class="profile-image">
                 <img src="https://res.cloudinary.com/dvm6xfima/image/upload/v1730258605/pic_uodjhe.png" alt="ps" class="img_src">
             </div>
-                        <div class="icon figma-icon"><img src='https://res.cloudinary.com/dvm6xfima/image/upload/v1730258604/python_bxcazb.png'></div>
+            <!-- Floating Icons -->
+            <div class="icon figma-icon"><img src='https://res.cloudinary.com/dvm6xfima/image/upload/v1730258604/python_bxcazb.png'></div>
             <div class="icon chart-icon"><img src="https://res.cloudinary.com/dvm6xfima/image/upload/v1730258604/django_pjsr7f.png"></div>
             <div class="icon eye-icon"><img src="https://res.cloudinary.com/dvm6xfima/image/upload/v1730258604/jquery_bpur6l.png"></div>
         </section>
@@ -75,23 +84,12 @@
 
         </section>
 
-                <div class="cursor"></div>
+        <!-- Profile Image and Elements -->
+        <div class="cursor"></div>
     </main>
 
-        <section class="skills-interests">
-        <h2>## Skills & Interests</h2>
-        <ul>
-            <li>**Python** (Pythoneers do it with intentions 🐍)</li>
-            <li>Pytorch , torchvision , torchaudio with cuda for Deeplearning</li>
-            <li>Yolo models( 11 image segmentation / 8 object detection)</li>
-            <li>Microsoft/Phi-3.5 vision model</li>
-            <li>Numpy , pandas , seaborn , networkx , tesseract , etc </li>
-            <li>Django Framework</li>
-            <li>jQuery & Frontend Tech</li>
-            <li>Keras / TensorFlow for ML projects</li>
-        </ul>
-    </section>
-            <section class="what-i-do">
+    <!-- What I Do Section -->
+    <section class="what-i-do">
 	<style>
 	
 	</style>
@@ -197,6 +195,7 @@
 	
 	 <section class="what-i-do1 a">
        <img src="https://res.cloudinary.com/dvm6xfima/image/upload/v1730258810/chess_d9ktal.png" class="ccpng">
+				<!-- HTML !-->
 				<a href="https://www.chess.com/member/binormus">
 <button class="button-89" role="button">Battle me </button></a>
 
@@ -398,42 +397,6 @@ document.addEventListener('mouseup', () => {
 
 </script>
 <style>
-/* ... (Existing styles remain the same) ... */
-
-/* New styles for the Skills & Interests section */
-.skills-interests {
-    text-align: left;
-    padding: 60px 10%;
-    background-color: #fff; /* or another color to distinguish it */
-    margin-top: 30px;
-}
-
-.skills-interests h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.skills-interests ul {
-    list-style: none; /* Remove default bullet points */
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; /* Space between items */
-}
-
-.skills-interests li {
-    background-color: #D7DAFF; /* Light background for each skill */
-    color: #333;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* ... (Rest of your existing styles) ... */
-
 body {
 width:100vw;
 height:100vh;
@@ -932,6 +895,10 @@ $(document).ready(function(){
 
 
 
+<!-- HTML !-->
+
+
+
  
  <style>
   .container {
@@ -1309,6 +1276,3 @@ display:block;
 .service {
     width: 80vw;
     
-}
-/* ... (Existing responsive styles remain the same) ... */
-</style>
