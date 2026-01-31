@@ -17,6 +17,7 @@ This is my personal website where I showcase:
 - 📫 Contact information
 
 The website is served using **GitHub Pages**, which automatically hosts the `index.html` and other static assets in this repository.
+And I dont think so the project I am building works 
 
 ---
 
