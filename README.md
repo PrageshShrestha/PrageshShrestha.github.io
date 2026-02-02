@@ -8,18 +8,18 @@ This repository contains the static files (HTML, CSS, images, etc.) that power m
 
 ---
 
-## 🧠 About This Site
+## About This Site
 
 This is my personal website where I showcase:
-- 📌 Projects I’m building
-- 📄 Blog posts or tech articles
-- 💼 My resume and profile
-- 📫 Contact information
+-  Projects I’m building
+-  Blog posts or tech articles
+-  My resume and profile
+-  Contact information
 
 The website is served using **GitHub Pages**, which automatically hosts the `index.html` and other static assets in this repository.
 And I dont think so the project I am building works 
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
